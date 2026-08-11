@@ -1,0 +1,29 @@
+============================================================
+TinyBASU CPU Simulation Report
+============================================================
+Program: asm/fibo_bne.asm
+Branch prediction method: ST
+------------------------------------------------------------
+Simulator execution time (seconds): 0.000239
+Number of assembly instructions (program length): 11
+Number of cycles required to run the program: 149
+Total number of instructions executed: 146
+IPC (Instructions Per Cycle): 0.9799
+
+Register contents after the last cycle:
+  rx0 = 0 (0x0000)
+  rx1 = 45608 (0xB228)
+  rx2 = 30 (0x001E)
+  rx3 = 30 (0x001E)
+  rx4 = 45608 (0xB228)
+  rx5 = 0 (0x0000)
+  rx6 = 55477 (0xD8B5)
+  rx7 = 0 (0x0000)
+Final PC value: 11
+
+Number of stalls (due to branches): 1
+Total number of conditional branch instructions executed: 28
+Number of mispredictions: 1
+Branch prediction algorithm accuracy: 96.43%
+Speedup relative to not using branch prediction: 1.5436x
+============================================================
