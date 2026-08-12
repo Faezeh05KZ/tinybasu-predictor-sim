@@ -1,0 +1,29 @@
+============================================================
+TinyBASU CPU Simulation Report
+============================================================
+Program: misc/ext_demo.asm
+Branch prediction method: D2
+------------------------------------------------------------
+Simulator execution time (seconds): 0.000089
+Number of assembly instructions (program length): 28
+Number of cycles required to run the program: 29
+Total number of instructions executed: 23
+IPC (Instructions Per Cycle): 0.7931
+
+Register contents after the last cycle:
+  rx0 = 0 (0x0000)
+  rx1 = 27 (0x001B)
+  rx2 = 31 (0x001F)
+  rx3 = 1 (0x0001)
+  rx4 = 3 (0x0003)
+  rx5 = 9 (0x0009)
+  rx6 = 9 (0x0009)
+  rx7 = 19 (0x0013)
+Final PC value: 28
+
+Number of stalls (due to branches): 2
+Total number of conditional branch instructions executed: 2
+Number of mispredictions: 2
+Branch prediction algorithm accuracy: 0.00%
+Speedup relative to not using branch prediction: 1.0000x
+============================================================
